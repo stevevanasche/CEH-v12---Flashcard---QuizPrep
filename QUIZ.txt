@@ -1,0 +1,288 @@
+1) Mike completed a network scan and identified numerous services with vulnerabilities. He's aware that many of these services typically have safeguards against external threats but are often vulnerable to internal users. He plans to compose an email, forge the sender address to appear as though it's from the internal IT department, and attach a harmful file masked as a financial spreadsheet. Before sending the email, Mike contemplates alternative strategies for introducing the file into the system. What was the final step in the cyber kill chain that Mike executed in this scenario?
+
+Weaponization
+Reconnaissance
+Exploitation
+Delivery
+
+2) Alex, an expert hacker, employed specific tools or search engines to encrypt all his internet activities and browse anonymously, aiming to access confidential or concealed data about governmental or federal databases. After acquiring the necessary information, he executed an attack on the targeted government entity without leaving any trace. Which technique is outlined in the scenario described above?
+
+Website footprinting
+VoIP footprinting
+Dark web footprinting
+VPN footprinting
+
+
+3) Alex utilizes Zenmap to conduct an ICMP timestamp ping scan to gather information about the current time from the targeted host machine. Which Zenmap option should Alex select to execute the ICMP timestamp ping scan?
+
+-PP
+-Pn
+-PY
+-PU
+
+
+4) Alex, a penetration tester employed by ABC Corporation, conducts enumeration on a client's organization by querying the DNS server for a particular cached DNS record. Utilizing this cached information, he identifies the websites that the organization's users have recently accessed. What is the enumeration method that Alex applied to the organization?
+
+DNSSEC zone walking
+DNS cache snooping
+DNS cache poisoning
+DNS zone walking
+
+
+5) Attacker Eve set up an unauthorized access point within a company's boundaries and tried to breach its internal network. Alex, a security auditor, noticed some irregular traffic within the internal network targeting the authentication system. He quickly disabled the affected network and conducted tests for any vulnerable or outdated security measures susceptible to attacks. What is the vulnerability assessment type conducted by Alex in this scenario?
+
+Host-based assessment
+Wireless network assessment
+Distributed assessment
+Application assessment
+
+6) Which Metasploit post-exploitation module is suitable for elevating privileges on Windows systems?
+
+getsystem
+autoroute
+getuid
+keylogrecorder
+
+7) Which kind of virus is most likely to evade detection by antivirus programs?
+
+File-extension virus
+Cavity virus
+Stealth virus
+Macro virus
+
+8) Jane, an adept hacker, aimed to compromise a chosen organization's network. She employed a tool to broadcast fraudulent ARP messages throughout the target network, linking her MAC address with the IP address of the target system. This allowed Jane to capture messages intended for the victim's MAC address, and she further leveraged the tool to intercept, expropriate, alter, and obstruct critical communications to the target system. What is the tool that Jane used for this attack?
+
+DerpNSpoof
+Wireshark
+BetterCAP
+Gobbler
+
+9) ____________ is a type of phishing that targets high-profile executives such as CEOs, CFOs, politicians, and celebrities who have access to confidential and highly valuable information.
+
+Whaling
+Phishing
+Vishing
+Spear phishing
+
+10) Alex, a penetration tester at ABC Corp, conducts advanced security assessments on his organization's network infrastructure to pinpoint security vulnerabilities. During this procedure, he began bypassing the network's protective measures and firewalls. He utilized a method capable of generating fabricated TCP sessions through the deployment of multiple SYN, ACK, and RST or FIN packets. This technique also enabled Alex to launch DDoS attacks, depleting the network's resources. What is the attack method employed by Alex to identify vulnerabilities in the described scenario?
+
+Spoofed session flood attack
+Ping-of-death attack
+UDP flood attack
+Peer-to-peer attack
+
+11) Alex, an expert penetration tester at ABC Corporation, is assigned to conduct security assessments on the company's web applications. To achieve this, Alex utilizes a tool designed to explore security vulnerabilities by intercepting a session between a client and a server. This tool includes an intercepting proxy feature, allowing the inspection and alteration of traffic between the browser and the target application. It also facilitates tailored attacks and can assess the randomness of session tokens. Which tool is Alex using in the described scenario?
+
+Nmap
+Wireshark
+CxSAST
+Burp Suite
+
+12) Alex, a security expert within a company, observed irregularities in the user accounts on a web server. To counteract emerging threats, he resolved to enhance the web server's security by implementing several safeguards to protect the accounts. What measures should Alex take to ensure the security of the user accounts on the web server?
+
+Retain all unused modules and application extensions
+Limit the administrator or root-level access to the minimum number of users
+Enable unused default user accounts created during the installation of an OS
+Enable all non-interactive accounts that should exist but do not require interactive login
+
+13) If an attacker uses the input `<!DOCTYPE blah [ <!ENTITY trustme SYSTEM "file:///etc/passwd" > ] >`, which web vulnerability are they likely trying to exploit?
+
+SQLi
+IDOR
+XXE
+XXS
+
+14) This injection attack is characterized by the absence of error messages, making it challenging to exploit. It involves submitting SQL payloads to an application, which then provoke a true or false response from the server. By analyzing these responses, an attacker can deduce and extract sensitive data. What is this type of attack called?
+
+Union SQL injection
+Error-based SQL injection
+Time-based SQL injection
+Blind SQL injection
+
+15) Bob, an attacker, wanted to check whether the target AP is in a locked state. He attempted using different utilities to identify WPS-enabled APs in the target wireless network. Ultimately, he succeeded with one special command-line utility.Which of the following command-line utilities allowed Bob to discover the WPS-enabled APs?
+5 punti
+macof
+ntptrace
+net view
+wash
+
+16) Bob, a professional hacker, targeted the IoT cameras and devices used by a target venture-capital firm. He used an information-gathering tool to collect information about the IoT devices connected to a network, open ports and services, and the attack surface area. Using this tool, he also generated statistical reports on broad usage patterns and trends. This tool helped Bob continually monitor every reachable server and device on the Internet, further allowing him to exploit these devices in the network. Which of the following tools was employed by Bob in the above scenario?
+
+Wapiti
+Lacework
+NeuVector
+Censys
+
+17) Bob, a security professional, was pen testing web applications and SaaS platforms used by his company. While testing, he found a vulnerability that allows hackers to gain unauthorized access to API objects and perform actions such as view, update, and delete sensitive data of the company.
+What is the API vulnerability revealed in the above scenario?
+
+No ABAC validation
+Code injections
+Improper use of CORS
+Business logic flaws
+
+18) Bob works as a system administrator in an organization. He wants to extract the source code of a mobile application and disassemble the application to analyze its design flaws. Using this technique, he wants to fix any bugs in the application, discover underlying vulnerabilities, and improve defense strategies against attacks.
+What is the technique used by Bob in the above scenario to improve the security of the mobile application?
+
+App sandboxing
+Jailbreaking
+Reverse engineering
+Social engineering
+
+19) Bob, a cloud security engineer working in XYZ Company is tasked with isolating applications from the underlying infrastructure and stimulating communication via well-defined channels. For this purpose, he used an open-source technology that helped him in developing, packaging, and running applications; further, the technology provides PaaS through OS-level virtualization, delivers containerized software packages, and promotes fast software delivery. What is the cloud technology employed by Bob in the above scenario?
+
+Virtual machine
+Serverless computing
+Docker
+Zero trust network
+
+20) Bob, an encryption specialist, implemented a technique that enhances the security of keys used for encryption and authentication. Using this technique, Bob input an initial key to an algorithm that generated an enhanced key that is resistant to brute-force attacks.What is the technique employed by Bob to improve the security of encryption keys?
+
+Key stretching
+Key derivation function
+Public key infrastructure
+Key reinstallation
+
+21) During a red team engagement, an ethical hacker is tasked with testing the security measures of an organization's wireless network. The hacker needs to select an appropriate tool to carry out a session hijacking attack. Which of the following tools should the hacker use to effectively perform session hijacking and subsequent security analysis, given that the target wireless network has the Wi-Fi Protected Access-pre- shared key (WPA-PSK) security protocol in place?
+
+
+DroidSheep
+Hetty
+bettercap
+FaceNiff
+
+22) While performing a security audit of a web application, an ethical hacker discovers a potential vulnerability. The application responds to logically incorrect queries with detailed error messages that divulge the underlying database's structure. The ethical hacker decides to exploit this vulnerability further. Which type of SQL Injection attack is the ethical hacker likely to use?
+
+
+In-band SQL Injection
+Blind/Inferential SQL Injection
+UNION SQL Injection
+Error-based SQL Injection
+
+23) As a cybersecurity consultant for SafePath Corp, you have been tasked with implementing a system for secure email communication. The key requirement is to ensure both confidentiality and non-repudiation. While considering various encryption methods, you are inclined towards using a combination of symmetric and asymmetric cryptography. However, you are unsure which cryptographic technique would best serve the purpose. Which of the following options would you choose to meet these requirements?
+
+Use the Diffie-Hellman protocol for key exchange and encryption.
+Apply asymmetric encryption with RSA and use the private key for signing.
+Apply asymmetric encryption with RSA and use the public key for encryption.
+Use symmetric encryption with the AES algorithm.
+
+24) Consider a hypothetical situation where an attacker, known for his proficiency in SQL Injection attacks, is targeting your web server. This adversary meticulously crafts 'q' malicious SQL queries, each inducing a delay of 'd' seconds in the server response. This delay in response is an indicator of a potential attack. If the total delay, represented by the product 'q*d', crosses a defined threshold 'T', an alert is activated in your security system. Furthermore, it is observed that the attacker prefers prime numbers for 'q', and 'd' follows a pattern in the Fibonacci sequence. Now, consider 'd=13' seconds (a Fibonacci number) and various values of 'q' (a prime number) and 'T'. Which among the following scenarios will most likely trigger an alert?
+
+q=13, T=180: In this case, the total delay caused by the attacker ('q*d' = 169 seconds) breaches the threshold, likely leading to the triggering of a security alert
+q=19, T=260: Despite the attacker's increased effort, the total delay ('q*d' = 247 seconds) does not exceed the threshold, thus no alert is triggered
+q=11, T=150: Here, the total delay induced by the attacker ('q*d' = 143 seconds) does not surpass the threshold, so the security system remains dormant
+q=17, T=220: Even though the attacker increases 'q', the total delay ('q*d' = 221 seconds) just surpasses the threshold, possibly activating an alert
+
+25) You are a cybersecurity consultant for a healthcare organization that utilizes Internet of Medical Things (IoMT) devices, such as connected insulin pumps and heart rate monitors, to provide improved patientcare. Recently, the organization has been targeted by ransomware attacks. While the IT infrastructure was unaffected due to robust security measures, they are worried that the IoMT devices could be potential entry points for future attacks. What would be your main recommendation to protect these devices from such threats?
+
+Implement multi-factor authentication for all IoMT devices.
+Use network segmentation to isolate IoMT devices from the main network.
+Regularly change the IP addresses of all IoMT devices.
+Disable all wireless connectivity on IoMT devices.
+
+26) As a certified ethical hacker, you are performing a system hacking process for a company that is suspicious about its security system. You found that the company's passwords are all known words, but not in the dictionary. You know that one employee always changes the password by just adding some numbers to the old password. Which attack is most likely to succeed in this scenario?
+
+Password Spraying Attack
+Hybrid Attack
+Brute-Force Attack
+Rule-based Attack
+
+27) A malicious user has acquired a Ticket Granting Service from the domain controller using a valid user's Ticket Granting Ticket in a Kerberoasting attack. He exhorted the TGS tickets from memory for offline cracking. But the attacker was stopped before he could complete his attack. The system administrator needs to investigate and remediate the potential breach. What should be the immediate step the system administrator takes?
+
+Delete the compromised user's account
+Invalidate the TGS the attacker acquired
+Perform a system reboot to clear the memory
+Change the NTLM password hash used to encrypt the ST
+
+28) A Certified Ethical Hacker (CEH) is given the task to perform an LDAP enumeration on a target system. The system is secured and accepts connections only on secure LDAP. The CEH uses Python for the enumeration process. After successfully installing LDAP and establishing a connection with the target, he attempts to fetch details like the domain name and naming context but is unable to receive the expected response. Considering the circumstances, which of the following is the most plausible reason for this situation?
+
+The Python version installed on the CEH's machine is incompatible with the ldap3 library
+The secure LDAP connection was not properly initialized due to a lack of 'use_ssl = True' in the server object creation
+The enumeration process was blocked by the target system's intrusion detection system
+The system failed to establish a connection due to an incorrect port number
+
+29) A well-resourced attacker intends to launch a highly disruptive DDoS attack against a major online retailer. The attacker aims to exhaust all the network resources while keeping their identity concealed. Their method should be resistant to simple defensive measures such as IP-based blocking. Based on these objectives, which of the following attack strategies would be most effective?
+
+
+The attacker should initiate a volumetric flood attack using a single compromised machine to overwhelm the retailer's network bandwidth
+The attacker should instigate a protocol-based SYN flood attack, consuming connection state tables on the retailer's servers
+The attacker should leverage a botnet to launch a Pulse Wave attack, sending high-volume traffic pulses at regular intervals
+The attacker should execute a simple ICMP flood attack from a single IP, exploiting the retailer's ICMP processing
+
+30) As a cybersecurity analyst at IoT Defend, you are working with a large utility company that uses Industrial Control Systems (ICS) in its operational technology (OT) environment. The company has recently integrated IoT devices into this environment to enable remote monitoring and control. They want to ensure these devices do not become a weak link in their security posture. To identify potential vulnerabilities in the IoT devices, which of the following actions should you recommend as the first step?
+
+Install the latest antivirus software on each IoT device.
+Implement network segmentation to isolate IoT devices from the rest of the network.
+Conduct a vulnerability assessment specifically for the IoT devices.
+Use stronger encryption algorithms for data transmission between IoT devices.
+
+31) As the chief security officer at SecureMobile, you are overseeing the development of a mobile banking application. You are aware of the potential risks of man-in-the-middle (MitM) attacks where an attacker might intercept communication between the app and the bank's servers. Recently, you have learned about a technique used by attackers where they use rogue Wi-Fi hotspots to conduct MitM attacks. To prevent this type of attack, you plan to implement a security feature in the mobile app. What should this feature accomplish?
+
+It should prevent the app from communicating over a network if it detects a rogue access point.
+It should require two-factor authentication for user logins.
+It should prevent the app from connecting to any unencrypted Wi-Fi networks.
+It should require users to change their password every 30 days.
+
+32) As a part of an ethical hacking exercise, an attacker is probing a target network that is suspected to employ various honeypot systems for security. The attacker needs to detect and bypass these honeypots without alerting the target. The attacker decides to utilize a suite of techniques. Which of the following techniques would NOT assist in detecting a honeypot?
+
+Implementing a brute force attack to verify system vulnerability
+Using honeypot detection tools like Send-Safe Honeypot Hunter
+Probing system services and observing the three-way handshake
+Analyzing the MAC address to detect instances running on VMware
+
+33) You have been given the responsibility to ensure the security of your school's web server. As a step towards this, you plan to restrict unnecessary services running on the server. In the context of web server security, why is this step considered important?
+
+Unnecessary services could contain vulnerabilities; minimize the attack surface
+Unnecessary services reveal server software; hide software details
+Unnecessary services eat up server memory; save memory resources
+Unnecessary services slow down the server; optimize server speed
+
+34) During a penetration testing assignment, a Certified Ethical Hacker (CEH) used a set of scanning tools to create a profile of the target organization. The CEH wanted to scan for live hosts, open ports, and services on a target network. He used Nmap for network inventory and Hping3 for network security auditing. However, he wanted to spoof IP addresses for anonymity during probing. Which command should the CEH use to perform this task?
+
+Hping3 -2 10.0.0.25 -p 80
+Hping3 -1 10.0.0.25 --ICMP
+Nmap -sS -Pn -n -vvv --packet-trace -p- --script discovery -T4
+Hping3 -S 192.168.1.1 -a 192.168.1.254 -p 22 --flood
+
+35) An audacious attacker is targeting a web server you oversee. He intends to perform a Slow HTTP POST attack, by manipulating 'a' HTTP connection. Each connection sends a byte of data every 'b' second, effectively holding up the connections for an extended period. Your server is designed to manage 'm' connections per second, but any connections exceeding this number tend to overwhelm the system. Given 'a=100' and variable 'm', along with the attacker's intention of maximizing the attack duration 'D=a*b', consider the following scenarios. Which is most likely to result in the longest duration of server unavailability?
+
+m=105, b=12: The server can manage 105 connections per second, more than the attacker's 100 connections, likely maintaining operation despite a moderate hold-up time
+m=90, b=15: The server can manage 90 connections per second, but the attacker's 100 connections exceed this, and with each connection held up for 15 seconds, the attack duration could be significant
+m=110, b=20: Despite the attacker sending 100 connections, the server can handle 110 connections per second, therefore likely staying operative, regardless of the hold-up time per connection
+m=95, b=10: Here, the server can handle 95 connections per second, but it falls short against the attacker's 100 connections, albeit the hold-up time per connection is lower
+
+36) A security analyst is preparing to analyze a potentially malicious program believed to have infiltrated an organization's network. To ensure the safety and integrity of the production environment, the analyst decided to use a sheep dip computer for the analysis. Before initiating the analysis, what key step should the analyst take?
+
+Run the potentially malicious program on the sheep dip computer to determine its behavior
+Install the potentially malicious program on the sheep dip computer
+Connect the sheep dip computer to the organization's internal network
+Store the potentially malicious program on an external medium, such as a CD-ROM
+
+37) You are an ethical hacker contracted to conduct a security audit for a company. During the audit, you discover that the company's wireless network is using WEP encryption. You understand the vulnerabilities associated with WEP and plan to recommend a more secure encryption method. Which of the following would you recommend as a suitable replacement to enhance the security of the company's wireless network?
+
+Open System authentication
+SSID broadcast disabling
+MAC address filtering
+WPA2-PSK with AES encryption
+
+38) Sarah, a system administrator, was alerted of potential malicious activity on the network of her company. She discovered a malicious program spread through the instant messenger application used by her team. The attacker had obtained access to one of her teammate's messenger accounts and started sending files across the contact list. Which best describes the attack scenario and what measure could have prevented it?
+
+Rogue/Decoy Applications; ensuring software is labeled as TRUSTED
+Insecure Patch Management; updating application software regularly
+Portable Hardware Media/Removable Devices; disabling Autorun functionality
+Instant Messenger Applications; verifying the sender's identity before opening any files
+
+39) Recently, the employees of a company have been receiving emails that seem to be from their colleagues, but with suspicious attachments. When opened, these attachments appear to install malware on their systems.
+The IT department suspects that this is a targeted malware attack. Which of the following measures would be the most effective in preventing such attacks?
+
+Disabling Autorun functionality on all drives
+Applying the latest patches and updating software programs
+Regularly scan systems for any new files and examine them
+Avoiding the use of outdated web browsers and email software
+
+40) During a red team assessment, a CEH is given a task to perform network scanning on the target network without revealing its IP address. They are also required to find an open port and the services available on the target machine. What scanning technique should they employ, and which command in Zenmap should they use?
+
+Use the ACK flag probe scanning technique with the command "-sA"
+Use SCTP INIT Scan with the command "-sY"
+Use the IDLE/IPID header scan technique with the command "-sI"
+Use UDP Raw ICMP Port Unreachable Scanning with the command "-sU"
